@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Wifi Ninja</string>
+    <string name="root_required">Root required</string>
+    <string name="saved_wifi">Saved Wi-Fi</string>
+    <string name="no_password">No password</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="backup_success">Backup success</string>
+    <string name="network_already_exists">Network already exists</string>
+    <string name="restore_partial_success">Restored %1$d networks successfully (%2$d failed)</string>
+    <string name="restore_success">Restored %1$d networks successfully</string>
+    <string name="wifi_backup_warning">The backup file contains sensitive information such as passwords. Please store it securely.</string>
+    <string name="share_wifi">Share Wi-Fi</string>
+    <string name="wifi_info">Wi-Fi info</string>
+    <string name="share">Share</string>
+    <string name="save">Save</string>
+    <string name="label_password">Password:</string>
+    <string name="label_ssid">SSID:</string>
+    <string name="share_qr_code">Share QR code</string>
+    <string name="share_wifi_via_text">Share Wi-Fi via text</string>
+    <string name="save_qr_code">Save QR code</string>
+    <string name="failed_save_qr_code">Failed to save QR code</string>
+    <string name="saved_qr_code">Saved QR code</string>
+    <string name="restore_networks">Restore Networks</string>
+    <string name="no_networks_in_backup">No networks found in the backup file.</string>
+    <string name="backup_restore">Backup or Restore</string>
+    <string name="storage_permission_denied">Storage permission required</string>
+</resources>
