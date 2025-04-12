@@ -13,9 +13,6 @@ import java.util.EnumMap
 object QrCodeGenerator {
     private const val DEFAULT_MARGIN = -1
 
-    fun encodeQrCode(contents: String, size: Int, invert: Boolean): Bitmap =
-        encodeQrCode(contents, size, DEFAULT_MARGIN, invert)
-
     fun encodeQrCode(
         contents: String,
         size: Int,

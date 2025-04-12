@@ -15,9 +15,4 @@ object StringUtils {
             }
         }
     }
-
-    fun String.addQuotationIfNeeded(): String =
-        if (isEmpty()) ""
-        else if (length >= 2 && startsWith("\"") && endsWith("\"")) this
-        else "\"$this\""
 }

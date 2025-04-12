@@ -15,13 +15,4 @@ object AppUtils {
         }
         return c
     }
-
-    fun isPrivilegedApp(): Boolean {
-        val appContext = getAppContext()
-        val appInfo = appContext.applicationInfo
-        val privateFlags = appInfo::class.java.getDeclaredField("privateFlags").apply {
-            isAccessible = true
-        }.get(appInfo) as Int
-        return (privateFlags and (1 shl 3)) != 0
-    }
 }

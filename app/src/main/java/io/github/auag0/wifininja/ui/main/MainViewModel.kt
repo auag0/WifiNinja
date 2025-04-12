@@ -25,7 +25,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class MainViewModel @Inject constructor(
-    private val app: Application,
+    app: Application,
     private val wifiRepository: WifiRepository,
     private val wifiConfigStorageManager: WifiConfigStorageManager
 ) : AndroidViewModel(app) {

@@ -12,8 +12,6 @@
     <string name="wifi_backup_warning">バックアップファイルにはパスワードなどの機密情報が含まれています。安全に保管してください。</string>
     <string name="share_wifi">Wi-Fiを共有</string>
     <string name="wifi_info">Wi-Fi情報</string>
-    <string name="share">共有</string>
-    <string name="save">保存</string>
     <string name="label_password">パスワード:</string>
     <string name="label_ssid">SSID:</string>
     <string name="share_qr_code">QRコードを共有</string>
