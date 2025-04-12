@@ -12,8 +12,6 @@
     <string name="wifi_backup_warning">The backup file contains sensitive information such as passwords. Please store it securely.</string>
     <string name="share_wifi">Share Wi-Fi</string>
     <string name="wifi_info">Wi-Fi info</string>
-    <string name="share">Share</string>
-    <string name="save">Save</string>
     <string name="label_password">Password:</string>
     <string name="label_ssid">SSID:</string>
     <string name="share_qr_code">Share QR code</string>
